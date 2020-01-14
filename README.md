@@ -14,14 +14,14 @@ $ echo -n '%40%23%24%25%5E%26%2A' | urlenc dec
 @#$%^&*
 ```
 
-### Display a query string as a list
+### Displays a query string as a list
 ```
 $ echo -n 'foo=bar&fizz=buzz' | urlenc list
 fizz: buzz
  foo: bar
 ```
 
-### Encode a list as a query string
+### Encodes a list as a query string
 ```
 $ urlenc query <<EOF
 > fizz: buzz
